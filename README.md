@@ -83,13 +83,12 @@ These videos serve as an additional layer of proof-of-work.
 ## 🚀 In Progress
 
 I am currently working on:
-- IT Support Project 001: Password Reset & Account Unlock  
-- Networking Project 001: DHCP Scope + IP Assignment Lab  
-- YouTube walkthrough setup  
-- Additional documentation templates
 
-More labs will be added weekly as I continue developing my skills.
+- **IT Support Project 001:** Windows 11 Troubleshooting & System Recovery Lab  
+- **Documentation Setup:** Creating structured Steps/, Logs/, Screenshots/ directories  
+- **Portfolio Expansion:** Preparing future labs for Networking and Active Directory  
+- **YouTube Walkthrough Setup:** Planning visual breakdowns of troubleshooting labs
 
----
+More hands-on labs will be added weekly as I continue building my IT Support, Networking, and Cybersecurity skillset.
 
 Thank you for taking the time to review my work!
