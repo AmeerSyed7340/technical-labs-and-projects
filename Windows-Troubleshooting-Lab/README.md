@@ -30,6 +30,15 @@ All troubleshooting steps, logs, and procedures reflect what an IT Support Techn
 
 ---
 
+## 📁 Quick Access
+
+- 📄 **Final Report:** Reports/Final-Report.md  
+- 🪜 **Step-by-Step Procedures:** Steps/  
+- 🖼️ **Screenshots:** Screenshots/  
+- 📜 **Logs / Command Outputs:** Logs/  
+
+---
+
 ## 📌 Project Overview
 
 This lab is designed to simulate a real IT Support troubleshooting workflow using Windows 11 Pro.  
