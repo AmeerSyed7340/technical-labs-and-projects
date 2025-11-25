@@ -32,10 +32,10 @@ All troubleshooting steps, logs, and procedures reflect what an IT Support Techn
 
 ## 📁 Quick Access
 
-- 📄 **Final Report:** Reports/Final-Report.md  
-- 🪜 **Step-by-Step Procedures:** Steps/  
-- 🖼️ **Screenshots:** Screenshots/  
-- 📜 **Logs / Command Outputs:** Logs/  
+- 📄 [**Final Report**](Reports/Final-Report.md)
+- 🪜 [**Step-by-Step Procedures**](Steps/)
+- 🖼️ [**Screenshots**](Screenshots/)
+- 📜 [**Logs / Command Outputs**](Logs/)
 
 ---
 
