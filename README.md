@@ -17,9 +17,12 @@ This mirrors the workflow used in professional Help Desk, Desktop Support, NOC, 
 ---
 
 ## 📁 Repository Structure
+
 technical-labs-and-projects
 ├── IT-Support/ → Troubleshooting labs, account issues, OS fixes, user onboarding... and more.
+
 ├── Networking/ → DHCP, DNS, VLANs, routing, subnets, firewall rules... and more.
+
 └── Cybersecurity/ → Security tools, logs, alerts, blue-team style labs... and more.
 
 
