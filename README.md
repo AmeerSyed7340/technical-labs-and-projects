@@ -1,5 +1,3 @@
-"# Technical Labs and Projects" 
-
 # Technical Labs and Projects
 
 Welcome to my hands-on IT, Networking, and Cybersecurity portfolio.  
