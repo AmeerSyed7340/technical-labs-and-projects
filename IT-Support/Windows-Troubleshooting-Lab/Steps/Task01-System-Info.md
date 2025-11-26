@@ -27,7 +27,7 @@ It is the fastest way to understand what machine we are working on before we beg
   - Confirms major Windows version (e.g., 22H2, 23H2)
   - Confirms build number
   - Helps determine whether bugs are due to outdated or unsupported builds  
-    
+    ![winver Screenshot](../Screenshots/systeminfo.png)
     
 Why do we use this:  
 **winver** tells us if the system is too old or missing important updates.
@@ -40,7 +40,8 @@ Why do we use this:
   - Hotfix (update) history
   - Network adapter info
   - System uptime  
-  
+  ![systeminfo Screenshot](../Screenshots/systeminfo.png)
+
 Why do we use this:  
 It generates a full system baseline report for documentation and deeper troubleshooting.
 This is your “technical details” dump.
