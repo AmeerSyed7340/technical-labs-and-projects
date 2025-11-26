@@ -32,14 +32,17 @@ We check to validate assumptions from earlier tasks and pinpoint the exact cause
 1. Open Event Viewer  
    - Press Win + R  
    - Type eventvwr.msc  
-   - Press Enter  
+   - Press Enter
+     <img src="../Screenshots.Task04/eventvwr.png" width="500">
 2. Navigate to key log areas    
    - Windows Logs → System
    - Windows Logs → Application
-   - Windows Logs → Setup  
+   - Windows Logs → Setup
+     <img src="../Screenshots.Task04/log-areas.png" width="500">
 3. Filter or sort by Level  
    - Click Level to group logs:  
      - Critical
      - Error
      - Warning
+       <img src="../Screenshots.Task04/filter-logs.png" width="500">
      
