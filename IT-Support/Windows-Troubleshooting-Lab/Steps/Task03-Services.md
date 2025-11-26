@@ -17,8 +17,8 @@ What it does:
   - Shows status (Running, Stopped)
   - Shows startup type (Automatic, Manual, Disabled)
   - Allows restarting failing services
-  - Shows dependencies to understand what each service relies on
-
+  - Shows dependencies to understand what each service relies on  
+      
 Why we use this:  
 Misconfigured or stopped services create a chain reaction of failures.  
 This tool reveals the exact state of each service in real time.  
@@ -27,20 +27,23 @@ This tool reveals the exact state of each service in real time.
 1. Open the services console
   - Press Win + R
   - Type **services.msc**
-  - Press Enter
+  - Press Enter  
+  <img src="../Screenshots/Task03/services.png" width="500">  
 2. Verify essential Windows Update services  
    These services must be Running and Automatic/Manual:
   - Windows Update (wuauserv)
   - Background Intelligent Transfer Service (BITS)
   - Cryptographic Services
   - Windows Installer
-  - Update Orchestrator Service
+  - Update Orchestrator Service  
+  <img src="../Screenshots/Task03/cryptographic.png" width="500">  
 3. Verify Login-related services
    These services impact profile loading, credentials, and user logon:
   - User Profile Service
   - Credential Manager
   - Workstation
   - Server  
+  <img src="../Screenshots/Task03/user-profile-service.png" width="500">  
   Action:
     - Confirm they are set to Automatic
     - Confirm they are not stuck in “Starting”
@@ -51,6 +54,7 @@ This tool reveals the exact state of each service in real time.
   - Network Location Awareness
   - WLAN AutoConfig
   - Network Connectivity Assistant  
+  <img src="../Screenshots/Task03/DHCP.png" width="500">  
   Action:
     - Make sure none of these are disabled
 5. Check for failing services
