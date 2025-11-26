@@ -16,8 +16,9 @@ This establishes a baseline to identify:
   - Shows Windows edition (Home/Pro)
   - Shows processor and installed RAM
   - Confirms system type (64-bit)
-  - Confirms device name
-  - ![System > About Screenshot](../Screenshots/system-about.png)
+  - Confirms device name  
+    <img src="../Screenshots/Task01/system-about.png" width="500"/>
+
 
     
 Why do we use this:  
@@ -27,7 +28,7 @@ It is the fastest way to understand what machine we are working on before we beg
   - Confirms major Windows version (e.g., 22H2, 23H2)
   - Confirms build number
   - Helps determine whether bugs are due to outdated or unsupported builds  
-    ![winver Screenshot](../Screenshots/systeminfo.png)
+    <img src="../Screenshots/Task01/systeminfo.png" width="500"/>
     
 Why do we use this:  
 **winver** tells us if the system is too old or missing important updates.
@@ -40,7 +41,7 @@ Why do we use this:
   - Hotfix (update) history
   - Network adapter info
   - System uptime  
-  ![systeminfo Screenshot](../Screenshots/systeminfo.png)
+    <img src="../Screenshots/Task01/winver.png" width="500"/>
 
 Why do we use this:  
 It generates a full system baseline report for documentation and deeper troubleshooting.
