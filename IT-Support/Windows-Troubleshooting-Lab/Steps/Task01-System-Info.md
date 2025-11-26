@@ -12,26 +12,27 @@ This establishes a baseline to identify:
 - Whether issues may be caused by outdated or unsupported components
 
 ## Tools Used
-- Windows 11 **Settings → System → About**
+1. Windows 11 **Settings → System → About**
   - Shows Windows edition (Home/Pro)
   - Shows processor and installed RAM
   - Confirms system type (64-bit)
   - Confirms device name
-  - ![System About Screenshot](../Screenshots/system-about.png)
+  - ![System > About Screenshot](../Screenshots/system-about.png)
 
     
 Why do we use this:  
 It is the fastest way to understand what machine we are working on before we begin troubleshooting.
 
-- **winver** command
+2. **winver** command
   - Confirms major Windows version (e.g., 22H2, 23H2)
   - Confirms build number
   - Helps determine whether bugs are due to outdated or unsupported builds  
     
+    
 Why do we use this:  
 **winver** tells us if the system is too old or missing important updates.
 
-- **systeminfo** command (CMD)
+3. **systeminfo** command (CMD)
   - OS version, build, and install date
   - System model & manufacturer
   - BIOS version
