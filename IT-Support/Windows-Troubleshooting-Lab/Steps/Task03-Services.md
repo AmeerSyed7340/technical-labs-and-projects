@@ -31,6 +31,7 @@ This tool reveals the exact state of each service in real time.
   <img src="../Screenshots/Task03/services.png" width="500">  
 2. Verify essential Windows Update services  
    These services must be Running and Automatic/Manual:  
+   
   - Windows Update (wuauserv)  
   - Background Intelligent Transfer Service (BITS)  
   - Cryptographic Services  
