@@ -16,14 +16,14 @@ This establishes a baseline to identify:
   - Shows Windows edition (Home/Pro)
   - Shows processor and installed RAM
   - Confirms system type (64-bit)
-  - Confirms device name
+  - Confirms device name  
 Why do we use this:
 It is the fastest way to understand what machine we are working on before we behin troubleshooting.
 
 - **winver** command
   - Confirms major Windows version (e.g., 22H2, 23H2)
   - Confirms build number
-  - Helps determine whether bugs are due to outdated or unsupported builds
+  - Helps determine whether bugs are due to outdated or unsupported builds  
 Why do we use this:
 **winver** tells us if the system is too old or missing important updates.
 
@@ -34,7 +34,7 @@ Why do we use this:
   - Physical memory
   - Hotfix (update) history
   - Network adapter info
-  - System uptime
+  - System uptime  
 Why do we use this:
 It generates a full system baseline report for documentation and deeper troubleshooting.
 This is your “technical details” dump.
