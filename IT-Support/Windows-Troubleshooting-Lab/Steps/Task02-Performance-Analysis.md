@@ -38,27 +38,30 @@ Resource Monitor exposes hidden background processes and low-level activity that
 ## Procedure
 1. **Task Manager**
  - Right click on Taskbar and click Task Manager
- - Go to Performance Tab -> Here we can see the performance of each of the essential components of this system
-   *Image*  
+ - Go to Performance Tab -> Here we can see the performance of each of the essential components of this system  
+   <img src="../Screenshots/Task02/performance.png" width="500"/>
+   
 2. **Processes Tab** - Identify High Resrouce Processes
  - Go to Processes Tab
  - Sort by CPU, Memory and finally Disk
  - Observe any processes using more than:
      - 30%-40% CPU
      - Large RAM usage
-     - 100% Disk usage
-   *image*  
+     - 100% Disk usage  
+   <img src="../Screenshots/Task02/processes.png" width="500"/>  
  - Take Note of any suspicious activity.
+   
 3. Analyze Startup Impact
  - Go to **Startup apps**
  - Sort by "Startup impact"
- - Disable any unnecessary **High Impact** apps
- *image*  
+ - Disable any unnecessary **High Impact** apps  
+ <img src="../Screenshots/Task02/startups.png" width="500"/>  
+ 
 4. Deep Dive Using Resource Monitor
  - Open Resource Monitor by pressing **Win + R** → type resmon
  - Inspect the following:
     - **CPU tab** → background processes, threads  
     - **Memory tab** → Hard faults, commit size  
     - **Disk tab** → read/write operations  
-    - **Network tab** → active connections
-  *image*
+    - **Network tab** → active connections  
+  <img src="../Screenshots/Task02/resmon.png" width="500"/>
