@@ -21,7 +21,7 @@ This establishes a baseline to identify:
 
     
 Why do we use this:  
-It is the fastest way to understand what machine we are working on before we behin troubleshooting.
+It is the fastest way to understand what machine we are working on before we begin troubleshooting.
 
 - **winver** command
   - Confirms major Windows version (e.g., 22H2, 23H2)
@@ -43,5 +43,3 @@ Why do we use this:
 Why do we use this:  
 It generates a full system baseline report for documentation and deeper troubleshooting.
 This is your “technical details” dump.
-
-- Screenshot tool (Snipping Tool)
