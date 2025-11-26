@@ -46,6 +46,7 @@ This tool reveals the exact state of each service in real time.
   - Workstation  
   - Server  
   <img src="../Screenshots/Task03/user-profile-service.png" width="500">  
+  
   Action:  
     - Confirm they are set to Automatic  
     - Confirm they are not stuck in “Starting”  
@@ -58,10 +59,12 @@ This tool reveals the exact state of each service in real time.
   - WLAN AutoConfig  
   - Network Connectivity Assistant  
   <img src="../Screenshots/Task03/DHCP.png" width="500">  
+  
   Action:  
     - Make sure none of these are disabled  
 5. Check for failing services  
    Look for services showing:  
+   
   - "Stopped" when set to Automatic  
   - Constant restarts  
   - Errors when starting  
