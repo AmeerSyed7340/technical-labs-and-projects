@@ -60,43 +60,43 @@ Below is the list of troubleshooting tasks that will be performed for this simul
 Each task will be linked once completed.
 
 ### 1. System Information Audit  
-🔗 *(Will link to: Steps/Task01-System-Info.md)*  
+🔗 [*Click here for task 1*](Steps/Task01-System-Info.md) 
 Collect baseline system specs and environment details before making changes.
 
 ### 2. Task Manager & Resource Monitor Analysis  
-🔗 *(Will link to: Steps/Task02-Performance-Analysis.md)*  
+🔗 [*Click here for task 2*](Steps/Task02-Performance-Analysis.md) 
 Check live CPU, memory, disk, and startup impact to diagnose performance issues.
 
 ### 3. Services Inspection (Windows Update & Dependencies)  
-🔗 *(Will link to: Steps/Task03-Services.md)*  
+🔗 [*Click here for task 3*](Steps/Task03-Services.md)  
 Verify that required Windows services are running properly.
 
 ### 4. Event Viewer Log Analysis  
-🔗 *(Will link to: Steps/Task04-EventViewer.md)*  
+🔗 [*Click here for task 4*](Steps/Task04-EventViewer.md)  
 Review system/application logs for warnings and errors tied to the symptoms.
 
 ### 5. Network Diagnostics  
-🔗 *(Will link to: Steps/Task05-Network.md)*  
+🔗 [*Click here for task 5*](Steps/Task05-Network.md)  
 Use `ipconfig`, `ping`, `tracert`, and related tools to confirm network stability.
 
 ### 6. Windows Update Troubleshooting  
-🔗 *(Will link to: Steps/Task06-Updates.md)*  
+🔗 [*Click here for task 6*](Steps/Task06-Updates.md)
 Investigate update failures and repair update components.
 
 ### 7. Disk & Storage Inspection  
-🔗 *(Will link to: Steps/Task07-Disk.md)*  
+🔗 [*Click here for task 7*](Steps/Task07-Disk.md)  
 Check disk health, free space, and test storage tools.
 
 ### 8. SFC & DISM Repair  
-🔗 *(Will link to: Steps/Task08-SFCDISM.md)*  
+🔗 [*Click here for task 8*](Steps/Task08-SFCDISM.md)  
 Scan and repair system file corruption.
 
 ### 9. Malware Scan (Defender Offline)  
-🔗 *(Will link to: Steps/Task09-Malware.md)*  
+🔗 [*Click here for task 9*](Steps/Task09-Malware.md)  
 Scan for potential malware causing freezes or session interruptions.
 
 ### 10. Backup & Restore Tools Verification  
-🔗 *(Will link to: Steps/Task10-BackupRestore.md)*  
+🔗 [*Click here for task 10*](Steps/Task10-BackupRestore.md)  
 Verify restore points and backup functionality.
 
 ---
