@@ -16,7 +16,9 @@ This establishes a baseline to identify:
   - Shows Windows edition (Home/Pro)
   - Shows processor and installed RAM
   - Confirms system type (64-bit)
-  - Confirms device name  
+  - Confirms device name
+  - ![System About Screenshot](../Screenshots/system-about.png)
+
     
 Why do we use this:  
 It is the fastest way to understand what machine we are working on before we behin troubleshooting.
