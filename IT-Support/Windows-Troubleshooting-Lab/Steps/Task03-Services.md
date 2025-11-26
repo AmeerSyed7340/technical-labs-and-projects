@@ -40,6 +40,7 @@ This tool reveals the exact state of each service in real time.
   <img src="../Screenshots/Task03/cryptographic.png" width="500">  
 3. Verify Login-related services  
    These services impact profile loading, credentials, and user logon:  
+   
   - User Profile Service  
   - Credential Manager  
   - Workstation  
@@ -50,6 +51,7 @@ This tool reveals the exact state of each service in real time.
     - Confirm they are not stuck in “Starting”  
 4. Verify Network-related services  
    These services affect Wi-Fi, DHCP, DNS, and overall connectivity:  
+   
   - DHCP Client  
   - DNS Client  
   - Network Location Awareness  
