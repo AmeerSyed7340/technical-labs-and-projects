@@ -1,4 +1,8 @@
+# Installing Active Directory Domain Services and Domain Controller promotion
 
-dsf  
+## Concept 
+An active directory is an identity and directory service that manages users by authenticating and authorizing users from one central hub after they have been joined to the domain .  
 
-<img width="276" height="170" alt="image" src="https://github.com/user-attachments/assets/737cff44-4b0a-42f7-aa81-ceace48d1cd6" />
+First, we need a server; in this case Windows server 22. The server can become a domain after promotion which is predicated upon the installation of a specific role: Active Directory Domain Service.  
+
+The creation of a domain prompts us to create a forest which, in successive steps, the users/machines can join into to become a part of the domain.
