@@ -1,4 +1,4 @@
-# 🖥️ Windows Troubleshooting Lab
+# Windows Troubleshooting Lab
 A simulated IT Support troubleshooting scenario demonstrating Windows diagnostics, system analysis, and real-world A+ concepts.
 
 ---
