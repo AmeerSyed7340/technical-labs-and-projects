@@ -1,1 +1,65 @@
+# Implementation
 
+## 1. Existing Network Assessment
+
+The original home network used a TP-Link wireless router as the primary networking device. Wireless coverage was weaker in parts of the home, particularly near the guest room.
+
+The project objectives were to:
+
+- Replace the existing primary router with a Mercusys AC1200 router.
+- Restore internet connectivity using the correct ISP configuration.
+- Repurpose the older TP-Link router as a wireless access point.
+- Extend wireless coverage into the guest room.
+- Keep the Mercusys router as the only DHCP server on the network.
+
+## 2. Primary Router Installation
+
+The Mercusys AC1200 was installed as the new primary router.
+
+The ISP connection was connected to the WAN port of the Mercusys router, and the router's administration interface was used to begin the internet setup process.
+
+During the initial setup, the router automatically detected PPPoE as the expected WAN connection type.
+
+## 3. WAN Configuration
+
+The automatically detected PPPoE configuration did not establish an internet connection.
+
+The Internet Service Provider was contacted to confirm the required WAN settings. The ISP confirmed that the connection used static IPv4 addressing rather than PPPoE.
+
+The ISP-provided network information was entered manually into the Mercusys router, including:
+
+- Static IPv4 address
+- Subnet mask
+- Default gateway
+- DNS server information
+
+After the correct static IPv4 configuration was applied, the Mercusys router successfully established internet connectivity.
+
+Sensitive ISP-assigned addressing information has not been included in this repository.
+
+## 4. Local Network Configuration
+
+The Mercusys router was configured as the primary router for the local network.
+
+Its responsibilities included:
+
+- Acting as the default gateway
+- Performing Network Address Translation
+- Providing DHCP services
+- Providing wireless connectivity in the main area of the home
+
+The Mercusys router used the following local configuration:
+
+- LAN IP address: `192.168.0.1`
+- DHCP server: Enabled
+- DHCP pool: `192.168.0.100–192.168.0.199`
+- Wireless network: Primary home network
+
+## 5. TP-Link Access Point Configuration
+
+The older TP-Link router was repurposed as a wireless access point rather than being used as a second router.
+
+Its LAN IP address was changed to:
+
+```text
+192.168.0.2
